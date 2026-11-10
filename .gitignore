@@ -1,0 +1,29 @@
+# Compiled Java class files (Bytecode)
+*.class
+
+# Package and archive files
+*.jar
+*.war
+*.ear
+
+# Virtual Machine crash logs
+hs_err_pid*
+replay_pid*
+
+# VS Code internal configurations
+.vscode/
+
+# IntelliJ IDEA / Android Studio metadata
+.idea/
+*.iml
+out/
+
+# Eclipse IDE metadata
+.metadata/
+bin/
+tmp/
+*.tmp
+
+# Operating system generated files
+.DS_Store
+Thumbs.db
