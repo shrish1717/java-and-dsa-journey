@@ -1,0 +1,48 @@
+/*
+
+Task: Given an integer, , perform the following conditional actions:
+If  is odd, print Weird
+If  is even and in the inclusive range of  to , print Not Weird
+If  is even and in the inclusive range of  to , print Weird
+If  is even and greater than , print Not Weird
+
+Input Format: A single line containing a positive integer, n.
+Output Format: Print Weird if the number is weird; otherwise, print Not Weird.
+*/
+
+
+
+
+
+import java.util.Scanner;
+public class Else_if {
+    
+  private static final Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args) {
+      int n = scanner.nextInt();
+        
+      //For the constraint
+      if( n >=1 && n<= 100){
+        
+        if(n%2 == 0){
+          
+          if(n>=2 && n<=5){
+            System.out.println("Not Weird");
+          }
+          else if(n>=6 && n<=20){
+            System.out.println("Weird");
+          }
+          
+          else{
+            System.out.println("Not Weird");
+           }
+        }     
+        else{
+            System.out.println("Weird");
+        }
+      
+     }  
+      scanner.close();
+    }
+}
