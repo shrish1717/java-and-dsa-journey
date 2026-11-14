@@ -1,4 +1,9 @@
 
+
+
+
+
+
 import java.util.Scanner;
 public class OutputFormatting {
      public static void main(String[] args) {
@@ -9,8 +14,6 @@ public class OutputFormatting {
                  String s1=sc.next();
                 int x=sc.nextInt();
                 result += String.format("%-15s%03d%n", s1, x);
-            
-            
             }
             System.out.println("================================");
             System.out.print(result);
